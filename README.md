@@ -23,7 +23,7 @@ python main.py --topic technology
 ## How to Run Tests
 
 ```bash
-pytest
+PYTHONPATH=. pytest
 ```
 
 ## Project Structure
