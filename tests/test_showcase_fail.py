@@ -8,4 +8,4 @@ def test_format_articles_failure_demo():
     result = format_articles(articles)
 
     # Intentionally wrong expectation
-    assert "Wrong Output" in result
+    assert result == "Wrong Output"
