@@ -6,6 +6,7 @@ def format_articles(articles):
         return "No articles found."
 
     output = ""
+    # Show only first 5 articles for readability
     for i, article in enumerate(articles[:5], start=1):
         title = article.get("title", "No title")
         source = article.get("source", {}).get("name", "Unknown source")
