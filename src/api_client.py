@@ -1,6 +1,6 @@
 import requests
 
-//API_KEY = "5e0f050c0fb2445b9625c76fc3112ee7"
+//API_KEY = ""
 URL = "https://newsapi.org/v2/top-headlines"
 
 def fetch_news(topic):
